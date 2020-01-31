@@ -1,0 +1,20 @@
+{
+	"searchPhraseLabel": {
+		"value": "Search"
+	},
+	"filtersButtonLabel": {
+		"value": "Filters"
+	},
+	"categoryLabel": {
+		"value": "Category"
+	},
+	"priceLabel": {
+		"value": "Price"
+	},
+	"applyButtonLabel": {
+		"value": "Apply"
+	},
+	"discardButtonLabel": {
+		"value": "Discard"
+	}
+}
