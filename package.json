@@ -13,6 +13,5 @@
   "dependencies": {
     "mime": "^2.4.4",
     "mime-types": "^2.1.26",
-    "promise": "^8.0.3"
   }
 }

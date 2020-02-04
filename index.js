@@ -1,8 +1,8 @@
-var http = require("http");
-var fs = require("fs");
-var mime = require("mime-types");
+const http = require("http");
+const fs = require("fs");
+const mime = require("mime-types");
 
-var methods = Object.create(null);
+const methods = Object.create(null);
 
 http.createServer(function(request, response) {
   function respond(code, body, type) {
@@ -25,7 +25,7 @@ http.createServer(function(request, response) {
 }).listen(8000);
 
 function urlToPath(url) {
-  var path = require("url").parse(url).pathname;
+  const path = require("url").parse(url).pathname;
   return "." + decodeURIComponent(path);
 }
 
@@ -49,7 +49,7 @@ methods.GET = function(path, respond) {
 };
 
 methods.PUT = function(path, respond, request) {
-  var outStream = fs.createWriteStream(path);
+  const outStream = fs.createWriteStream(path);
   outStream.on("error", function(error) {
     respond(500, error.toString());
   });
