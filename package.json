@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "mime": "^2.4.4",
-    "mime-types": "^2.1.26",
+    "mime-types": "^2.1.26"
   }
 }
